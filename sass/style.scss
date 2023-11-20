@@ -1,0 +1,44 @@
+@import '_variables';
+.navbar navbar-expand-lg navbar-light bg-light{
+ @include min
+
+}
+#navbarResponsive{
+    display: flex ;
+    flex-direction: row ;
+    justify-content: space-around ;
+    align-items: center ;
+
+}
+#integration{
+    text-align: center;
+    font-family: ' Bold';
+    font-size: 1.875rem;
+
+}
+
+footer{
+    background-color: #242f51;
+    height: 23.625rem;
+    width: 100rem;
+    
+}
+.social-icon{
+    font-size: 2.5rem;
+    color: white;
+  
+}
+#d{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    margin-right: 15px;
+}
+#d li{
+margin-left: 50px;
+color: white;
+
+} 

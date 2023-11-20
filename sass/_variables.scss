@@ -1,0 +1,12 @@
+$taille:12px;
+$style:"regular";
+$coleur:#000000;
+
+@mixin min(){
+    font-size: $taille;
+    font-family: $style;
+    color: $coleur;
+    background-color: white;
+  
+
+}

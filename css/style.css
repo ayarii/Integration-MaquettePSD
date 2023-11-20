@@ -1,0 +1,45 @@
+.navbar navbar-expand-lg navbar-light bg-light {
+  font-size: 12px;
+  font-family: "regular";
+  color: #000000;
+  background-color: white;
+}
+
+#navbarResponsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#integration {
+  text-align: center;
+  font-family: " Bold";
+  font-size: 1.875rem;
+}
+
+footer {
+  background-color: #242f51;
+  height: 23.625rem;
+  width: 100rem;
+}
+
+.social-icon {
+  font-size: 2.5rem;
+}
+
+#d{
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+
+  margin-right: 20px;
+}
+#d li{
+margin-left: 50px;
+color: white;
+
+} 
+/*# sourceMappingURL=style.css.map */
