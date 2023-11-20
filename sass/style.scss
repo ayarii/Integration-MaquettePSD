@@ -1,4 +1,5 @@
 @import "variables";
+
 @font-face{
     font-family: 'Poppins';
     src:url('../fonts/Poppins-Regular.ttf');
@@ -29,8 +30,28 @@
     }
 }
 .cards-parag{
-   font-size: $font-size-parag; 
+   font-size: $font-size-parag;
    font-family:'Poppins';
     font-weight: 400;
     color: $font-color-parag;
+}
+
+#navbarResponsive{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+
+    font-size: $font_size !important;
+    font-family: $font_family !important;
+    font-weight: $font_weight !important;
+
+}
+
+#navbarResponsive ul *{
+
+    color: $color !important;
+
+
 }
