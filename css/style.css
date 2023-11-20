@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.ttf");
+  font-weight: 600;
+}
+.cards-img {
+  margin-bottom: 2.5rem;
+}
+
+.cards-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.cards-title-1 {
+  color: #f55767;
+}
+.cards-title-2 {
+  color: #2563ff;
+}
+.cards-title-3 {
+  color: #40975f;
+}
+
+.cards-parag {
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #616368;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+@import "variables";
+@font-face{
+    font-family: 'Poppins';
+    src:url('../fonts/Poppins-Regular.ttf');
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'Poppins';
+    src:url('../fonts/Poppins-SemiBold.ttf');
+    font-weight: 600;
+}
+
+.cards-img{
+    margin-bottom: $icon-mb;
+}
+.cards-title{
+    font-size: $font-size-title;
+    margin-bottom: $font-title-mb;
+    font-family:'Poppins';
+    font-weight: 600;
+    &-1{
+        color: $font-color-payouts;
+    }
+    &-2{
+        color: $font-color-effect;
+    }
+    &-3{
+        color: $font-color-rewards;
+    }
+}
+.cards-parag{
+   font-size: $font-size-parag; 
+   font-family:'Poppins';
+    font-weight: 400;
+    color: $font-color-parag;
+}
