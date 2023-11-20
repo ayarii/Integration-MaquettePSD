@@ -55,3 +55,41 @@
 
 
 }
+
+// section 2
+
+.titreSec2{
+    font-size: $titre-size;
+    color: $titre-color;
+    font-weight: bold;
+    
+    font-family: 'Poppins';
+    
+   }
+   
+   .sec2{
+       margin-top: 190px;
+   }
+   .div-para{
+       margin-top: 74px;
+   }
+   .text{
+       font-size: $text-size;
+       font-family: 'Poppins';
+       color: $text-color;
+       margin-top: 25px;
+       
+       
+   }
+   .button{
+       background-color: $Button-Color;
+       color: white;
+       border: 0;
+       border-radius: 40px;
+       width: 174px;
+       height: 61px;
+       font-size: $text-size ;
+       font-weight: bold;
+       margin-top: 35px;
+       
+   }
